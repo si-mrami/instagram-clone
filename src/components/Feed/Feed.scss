@@ -1,0 +1,14 @@
+.feed {
+	// display: flex;
+	flex: 50%;
+	// width: 100%;
+	// padding: 4rem;
+
+	.feed-top {
+		display: flex;
+		padding: 3rem;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+	}
+}

@@ -1,0 +1,40 @@
+.leftbar {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	flex: 2%;
+	gap: 30px;
+	padding: 1rem;
+	border-right: 1px solid #808080;
+
+	h1 {
+		font-style: italic;
+		font-family: "Lucida Console", "Courier New", monospace;
+		padding: 1rem;
+	}
+
+	ul {
+		margin-top: 2rem;
+		padding: 1.5rem;
+
+		li {
+			display: flex;
+			padding: 1rem;
+			font-size: 24px;
+			align-items: center;
+			gap: 20px;
+			cursor: pointer;
+			border-radius: 10px;
+
+			&:hover {
+				background-color: #808080;
+			}
+
+			img {
+				width: 2rem;
+				border-radius: 50%;
+				height: 2rem;
+			}
+		}
+	}
+}
