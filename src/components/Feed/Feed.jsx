@@ -5,10 +5,10 @@ const Feed = () => {
 	return (
 		<div className='feed'>
 			<div className="feed-top">
-				<Story />
-				<Story />
-				<Story />
-				<Story />
+				<Story title="AyouB"/>
+				<Story title="Said"/>
+				<Story title="Yassine"/>
+				<Story title="Khadija"/>
 
 			</div>
 		</div>
