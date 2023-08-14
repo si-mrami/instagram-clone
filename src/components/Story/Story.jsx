@@ -3,10 +3,10 @@ import './Story.scss';
 const Story = (props) => {
 	return (
 		<div className="story">
-			<div className="story-item">
-				<img src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" alt="" />
+			<div className="story-item" key={props.id}>
+				<img src={props.img} alt="" />
 			</div>
-			<span>{props.title}</span>
+			<span>{props.Name}</span>
 		</div>
 	)
 }
