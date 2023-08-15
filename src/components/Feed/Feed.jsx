@@ -1,4 +1,4 @@
-import { Storys } from '../../Data/Data';
+import { Posts, Storys } from '../../Data/Data';
 import Post from '../Posts/Post';
 import Story from '../Story/Story';
 import './Feed.scss';
@@ -14,9 +14,9 @@ const Feed = () => {
 					))}
 
 			</div>
-			<Post/>
-			<Post/>
-			<Post/>
+			{Posts.map((item) => (
+				<Post Name={item.Name} time={item.time} imgPost={item.imgPost} imgProfile={item.imgProfile} like={item.like}/>
+			))}
 		</div>
 	)
 }

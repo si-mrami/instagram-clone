@@ -8,7 +8,7 @@ const SIdeBar = () => {
 				<div className="profil-info">
 					<img src="https://cdn-icons-png.flaticon.com/128/2202/2202112.png" alt="" />
 					<div className="info">
-						<span>si_mohamed-ri</span>
+						<span>Mrami</span>
 						<small>Mohamed Rami</small>
 					</div>
 				</div>
@@ -17,7 +17,7 @@ const SIdeBar = () => {
 			<div className="botom">
 				<div className="top">
 					<h1>Suggested for you</h1>
-					<span>See All</span>
+					<span style={{cursor:'pointer'}}>See All</span>
 				</div>
 				<div className="follows">
 					<div className="follow">

@@ -1,6 +1,10 @@
 .app {
 	display: flex;
 	background-color: #000;
+
+	.left {
+		position: fixed;
+	}
 }
 
 #root {

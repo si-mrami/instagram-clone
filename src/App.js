@@ -6,9 +6,11 @@ import './App.scss';
 function App() {
 	return (
 		<div className="app">
-			<LeftBar/>
-			<Feed/>
-			<SIdeBar/>
+			<div className="left">
+				<LeftBar />
+			</div>
+			<Feed />
+			<SIdeBar />
 		</div>
 	);
 }

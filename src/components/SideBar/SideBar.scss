@@ -1,7 +1,11 @@
 .sidebar {
 	display: flex;
-	flex: 15%;
+	flex: 10%;
 	flex-direction: column;
+	width: 20rem;
+	padding: 1rem;
+	margin-left: -2rem;
+	margin-right: 2rem;
 
 	.profileUser {
 		display: flex;
