@@ -10,12 +10,11 @@ const Feed = () => {
 		<div className='feed'>
 			<div className="feed-top">
 				{Storys.map((item) => (
-				<Story Name={item.Name} img={item.img} key={item.id}/>
-					))}
-
+					<Story Name={item.Name} img={item.img} key={item.id} />
+				))}
 			</div>
 			{Posts.map((item) => (
-				<Post Name={item.Name} time={item.time} imgPost={item.imgPost} imgProfile={item.imgProfile} like={item.like}/>
+				<Post Name={item.Name} time={item.time} imgPost={item.imgPost} imgProfile={item.imgProfile} like={item.like} />
 			))}
 		</div>
 	)
